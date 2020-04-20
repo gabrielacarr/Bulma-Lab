@@ -1,13 +1,16 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Navbar from './navbar/Navbar';
+import Navbar from './components/Navbar';
+import formfield from './components/formfield';
 
 
 function App() {
   return (
     <div className="App">
-     <Navbar name = "brie"/>
+   
+    <formfield/>
+    <Navbar/>
     </div>
   );
 }
