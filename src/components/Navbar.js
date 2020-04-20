@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import CoolButton from '../components/CoolButton';
 
 
 
@@ -7,7 +8,7 @@ class Navbar extends Component {
     return ( <>
     <nav class="navbar is-transparent" />
       <div class="navbar-brand" />
-      <a href=" " class="navbar-item" href="https://bulma.io" /> 
+      <a href=" " class="navbar-item" href="https://bulma.io" alt="navbar"/> 
       <img src="https://bulma.io/images/bulma-logo.png" alt="Bulma: a modern CSS framework based on Flexbox" width="112" height="28" />
 
       <div class="navbar-burger burger" data-target="navbarExampleTransparentExample" />

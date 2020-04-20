@@ -4,16 +4,12 @@ import './App.css';
 import Navbar from './components/Navbar';
 import PropsExample from './components/PropsExample';
 import FormField from './components/FormField';
+import Signup from './components/Signup';
 
 function App() {
   return (
     <div className="App">
-   
-  
-    <Navbar />
-    <PropsExample studentName="Hugo" teacherName ="Juan" />
-    <FormField/>
-
+   <Signup />
     </div>
   );
 }

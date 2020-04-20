@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
 
-const formfield = (props) => {
+const FormField = (props) => {
     return (
         <div className="field">
         <label className="label">{props.label}</label>
@@ -11,4 +11,4 @@ const formfield = (props) => {
         </div>
     );
 };
-export default formfield;
+export default FormField;
