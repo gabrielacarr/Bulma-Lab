@@ -2,8 +2,8 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Navbar from './components/Navbar';
-import formfield from './components/formfield';
-
+import PropsExample from './components/Navbar';
+import FormField from './components/formfield';
 
 function App() {
   return (
