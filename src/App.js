@@ -10,8 +10,14 @@ function App() {
   return (
     <div className="App">
    <Navbar />
+   <PropsExample studentName="Brie" teacherName="Juan"/>
+   <Message isInfo title="Hello World">
+   Additional information text placed here regarding the message. <strong>Additional Information</strong>
+   </Message>
+   <FormField label="Name" type="text" placeholder="e.g Jane Doe"/>
+   <FormField label="Email" type="email" placeholder="e.g JaneDoe@gmail.com"/>
    
-    </div>
+       </div>
   );
 }
 
