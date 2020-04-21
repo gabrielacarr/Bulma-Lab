@@ -1,21 +1,23 @@
 import React, { Component } from 'react';
-import Navbar from '../components/Navbar';
-import FormField from '../components/FormField';
-import CoolButton from '../components/CoolButton';
+import Navbar from './Navbar';
+import FormField from './FormField';
+import CoolButton from './CoolButton';
 
-export default class Signup extends Component {
+class Signup extends Component {
     render() {
         return (
             <div>
                 <Navbar/>
-                <FormField label="Name" type="text" placeholder="e.g John Doe"/>
-                <FormField label="Email" type="email" placeholder="e.g johndoe@gmail.com"/>
-                
+
+                <FormField label="Name" type="text" placeholder="e.g Gabriela"/>
+                <FormField label="Email" type="email" placeholder="e.g gabrielae@gmail.com"/>
                 <FormField label="Password" type="password" placeholder="e.g 1234J5"/>
-                <FormField label="Submit" classProp="button is=small is-success" />
+
+                <CoolButton style="is-success button" text="submit" />  // genrates a button for submission
                 
             </div>
         );
     }
 }
 
+export default Signup;
