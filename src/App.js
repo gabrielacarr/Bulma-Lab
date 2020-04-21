@@ -15,3 +15,4 @@ function App() {
 }
 
 export default App;
+// update the .js to .jsx
