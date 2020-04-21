@@ -13,11 +13,11 @@ class Signup extends Component {
                 <FormField label="Email" type="email" placeholder="e.g gabrielae@gmail.com"/>
                 <FormField label="Password" type="password" placeholder="e.g 1234J5"/>
 
-                <CoolButton style="is-success button" text="submit" />  // genrates a button for submission
+                <CoolButton style="is-success button" text="submit" />  
                 
             </div>
         );
     }
 }
-
+/* generates button for sign up */
 export default Signup;
