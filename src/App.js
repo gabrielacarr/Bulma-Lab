@@ -1,15 +1,16 @@
 import React from 'react';
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
 import Navbar from './components/Navbar';
 import PropsExample from './components/PropsExample';
 import FormField from './components/FormField';
-import Signup from './components/Signup';
+import Message from './components/Message';
 
 function App() {
   return (
     <div className="App">
-   <Signup />
+   <Navbar />
+   
     </div>
   );
 }
